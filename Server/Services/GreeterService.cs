@@ -12,7 +12,7 @@ namespace Grpc3.Services
         {
             _logger = logger;
         }
-
+         
         public override Task<ZorfReply> DoCommand(ZorfCommand request, ServerCallContext context)
         {
             AdventureEngine ae = AdventureEngine.s_pEngine;
