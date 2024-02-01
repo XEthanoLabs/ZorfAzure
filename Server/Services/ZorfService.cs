@@ -1,14 +1,11 @@
 using Grpc.Core;
-using Grpc3.Adventure;
-using Grpc3;
-using Zorf;
 
-namespace Grpc3.Services
+namespace Zorf.Services
 {
-    public class GreeterService : ZorfService.ZorfServiceBase
+    public class ZorfService : Zorf.ZorfService.ZorfServiceBase
     {
-        private readonly ILogger<GreeterService> _logger;
-        public GreeterService(ILogger<GreeterService> logger)
+        private readonly ILogger<ZorfService> _logger;
+        public ZorfService(ILogger<ZorfService> logger)
         {
             _logger = logger;
         }

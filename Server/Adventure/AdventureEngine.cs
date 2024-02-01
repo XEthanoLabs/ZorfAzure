@@ -1,7 +1,7 @@
 ﻿using System.Numerics;
 using System.Collections;
 
-namespace Grpc3.Adventure
+namespace Zorf.Services
 {
     public class User
     {
