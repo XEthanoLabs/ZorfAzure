@@ -1,4 +1,5 @@
 using Grpc.Core;
+using Zorf.Adventure;
 
 namespace Zorf.Services
 {

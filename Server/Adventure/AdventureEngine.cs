@@ -1,23 +1,9 @@
 ﻿using System.Numerics;
 using System.Collections;
+using Zorf.Adventure;
 
-namespace Zorf.Services
+namespace Zorf.Adventure
 {
-    public class User
-    {
-        public string id;
-        public string name;
-
-    }
-
-    public class RoomBase
-    {
-        string m_szDesc;
-        string m_szShortDesc;
-        public int m_id;
-
-    }
-
     struct Command
     {
         public string Verb;
